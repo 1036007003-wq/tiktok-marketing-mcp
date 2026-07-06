@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.1036007003-wq/tiktok-marketing",
+  "description": "MCP Server for TikTok marketing automation \u2014 upload videos, discover trends, track analytics, and optimize content performance.",
+  "repository": {
+    "url": "https://github.com/1036007003-wq/tiktok-marketing-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@1036007003-wq/tiktok-marketing-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "TIKTOK_ACCESS_TOKEN",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string",
+          "description": "TikTok API Access Token"
+        },
+        {
+          "name": "TIKTOK_APP_KEY",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string",
+          "description": "TikTok App Key"
+        },
+        {
+          "name": "TIKTOK_APP_SECRET",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string",
+          "description": "TikTok App Secret"
+        }
+      ]
+    }
+  ]
+}
