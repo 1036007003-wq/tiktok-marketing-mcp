@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-marketing-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for TikTok marketing automation — search trending videos, analyze hashtags, draft scripts, optimize posting. Free + Premium.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "tiktok-marketing-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": ["mcp", "tiktok", "marketing", "viral", "automation"],
+  "author": "1036007003-wq",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
